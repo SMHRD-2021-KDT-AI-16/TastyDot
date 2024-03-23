@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.user.JoinUserActivity"
+    tools:layout_editor_absoluteX="-1dp"
+    tools:layout_editor_absoluteY="-1dp">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tastydot" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/edge_menucolor"
+        android:fontFamily="@font/scdream6"
+        android:gravity="center"
+        android:text="회원가입"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/edge"
+        android:ems="10"
+        android:fontFamily="@font/scdream3"
+        android:hint="이름"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <EditText
+        android:id="@+id/etUserId"
+        android:layout_width="259dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edge"
+        android:ems="10"
+        android:fontFamily="@font/scdream3"
+        android:hint="아이디"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etUserName" />
+
+    <EditText
+        android:id="@+id/etUserPw"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/edge"
+        android:ems="10"
+        android:fontFamily="@font/scdream3"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUserIdCheck" />
+
+    <EditText
+        android:id="@+id/etUserEmail"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/edge"
+        android:ems="10"
+        android:fontFamily="@font/scdream3"
+        android:hint="이메일"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etUserPw" />
+
+    <Button
+        android:id="@+id/btnUserIdCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#38B8E5"
+        android:fontFamily="@font/scdream4"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="중복확인"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/etUserId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/etUserId"
+        app:layout_constraintTop_toTopOf="@+id/etUserId"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnUserJoin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#38B8E5"
+        android:fontFamily="@font/scdream4"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="가입하기"
+        android:textSize="16sp"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edge"
+        android:padding="5dp"
+        android:text="선호 음식"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etUserEmail" />
+
+    <CheckBox
+        android:id="@+id/cbCfood"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/edge_bluecolor"
+        android:buttonTint="#EE99C2"
+        android:gravity="center|left"
+        android:text="중식"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cbKfood"
+        app:layout_constraintStart_toEndOf="@+id/cbKfood"
+        app:layout_constraintTop_toTopOf="@+id/cbKfood"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/cbKfood"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edge_bluecolor"
+        android:buttonTint="#EE99C2"
+        android:gravity="center|left"
+        android:text="한식"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/etUserEmail" />
+
+    <CheckBox
+        android:id="@+id/cbWfood"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edge_bluecolor"
+        android:buttonTint="#EE99C2"
+        android:gravity="center|left"
+        android:text="양식"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/cbKfood" />
+
+    <CheckBox
+        android:id="@+id/cbSnack"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/edge_bluecolor"
+        android:buttonTint="#EE99C2"
+        android:gravity="center|left"
+        android:text="분식"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cbWfood"
+        app:layout_constraintStart_toEndOf="@+id/cbWfood"
+        app:layout_constraintTop_toTopOf="@+id/cbWfood"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/cbCafe"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/edge_bluecolor"
+        android:buttonTint="#EE99C2"
+        android:gravity="center|left"
+        android:text="카페"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cbSnack"
+        app:layout_constraintStart_toEndOf="@+id/cbSnack"
+        app:layout_constraintTop_toTopOf="@+id/cbSnack"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/cbJfood"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/edge_bluecolor"
+        android:buttonTint="#EE99C2"
+        android:gravity="center|left"
+        android:includeFontPadding="false"
+        android:text="일식"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cbCfood"
+        app:layout_constraintStart_toEndOf="@+id/cbCfood"
+        app:layout_constraintTop_toTopOf="@+id/cbCfood"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvUserIdCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/scdream2"
+        android:text="중복체크하세요!"
+        app:layout_constraintEnd_toEndOf="@+id/btnUserIdCheck"
+        app:layout_constraintStart_toStartOf="@+id/etUserId"
+        app:layout_constraintTop_toBottomOf="@+id/etUserId" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

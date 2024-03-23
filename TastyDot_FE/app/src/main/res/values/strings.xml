@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">project3</string>
+    <string-array name="spinner_options">
+        <item>과세</item>
+        <item>면세</item>
+
+    </string-array>
+    <string name="CouponInfo">
+            1. 쿠폰은 1000원, 2000원, 3000원, 5000원으로 발행가능합니다. \n
+            2. 쿠폰 사용 내역은 따로 확인 가능합니다.
+    </string>
+    <string name="UserLogin">사용자\n이동</string>
+    <string name="AdverLogin">광고주\n이동</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

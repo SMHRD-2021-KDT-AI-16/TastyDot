@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFE"
+    tools:context=".controller.advertiser.UserActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mainlogo" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.22" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:text="박은선"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 사장님"
+        android:textColor="#7F7F7F"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvId"
+        app:layout_constraintStart_toEndOf="@+id/tvId"
+        app:layout_constraintTop_toTopOf="@+id/tvId"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/edge"
+        android:fontFamily="@font/scdream6"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:text="음식 메뉴"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvMenuAdd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <TextView
+        android:id="@+id/tvMenuAdd"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/edge"
+        android:fontFamily="@font/nanumsquareb"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:text="메뉴 등록하기"
+        android:textColor="#80000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvMenuMod"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/tvMenuMod"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/edge"
+        android:fontFamily="@font/nanumsquareb"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:text="메뉴 수정하기"
+        android:textColor="#80000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMenuAdd" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edge"
+        android:fontFamily="@font/scdream6"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:text="쿠폰"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvAddCoupon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <TextView
+        android:id="@+id/tvAddCoupon"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/edge"
+        android:fontFamily="@font/nanumsquareb"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:text="쿠폰 발급하기"
+        android:textColor="#80000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvNowCoupon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/tvNowCoupon"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/edge"
+        android:fontFamily="@font/nanumsquareb"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:text="쿠폰 현황"
+        android:textColor="#80000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvUsedCoupon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAddCoupon" />
+
+    <TextView
+        android:id="@+id/tvUsedCoupon"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/edge"
+        android:fontFamily="@font/nanumsquareb"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:text="쿠폰 사용 내역"
+        android:textColor="#80000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNowCoupon" />
+
+    <TextView
+        android:id="@+id/tvStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/scdream5"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/tvId"
+        app:layout_constraintTop_toBottomOf="@+id/tvId" />
+
+    <ImageView
+        android:id="@+id/imgStore"
+        android:layout_width="79dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
