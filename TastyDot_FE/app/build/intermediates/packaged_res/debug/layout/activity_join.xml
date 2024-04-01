@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFEFE"
+    tools:context=".controller.advertiser.JoinActivity">
+
+    <EditText
+        android:id="@+id/etJoinUserId"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/et_line"
+        android:ems="10"
+        android:fontFamily="@font/scdream3"
+        android:hint="아이디"
+        android:inputType="text"
+        android:outlineProvider="paddedBounds"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/etJoinUserName"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/etJoinUserName"
+        app:layout_constraintTop_toBottomOf="@+id/etJoinUserName" />
+
+    <EditText
+        android:id="@+id/etJoinUserPw"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/et_line"
+        android:ems="10"
+        android:fontFamily="@font/scdream4"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:outlineProvider="paddedBounds"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/etJoinUserId"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/etJoinUserId"
+        app:layout_constraintTop_toBottomOf="@+id/etJoinUserId" />
+
+    <EditText
+        android:id="@+id/etJoinUserName"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/et_line"
+        android:ems="10"
+        android:fontFamily="@font/scdream3"
+        android:hint="이름"
+        android:inputType="text"
+        android:outlineProvider="paddedBounds"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <EditText
+        android:id="@+id/etJoinUserEmail"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/et_line"
+        android:ems="10"
+        android:fontFamily="@font/scdream3"
+        android:hint="이메일"
+        android:inputType="textEmailAddress"
+        android:outlineProvider="paddedBounds"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/etJoinUserPw"
+        app:layout_constraintStart_toStartOf="@+id/etJoinUserPw"
+        app:layout_constraintTop_toBottomOf="@+id/etJoinUserPw" />
+
+    <Button
+        android:id="@+id/btnJoin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#EE99C2"
+        android:fontFamily="@font/scdream4"
+        android:gravity="center"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="가입하기"
+        android:textSize="24sp"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etJoinUserEmail" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/scdream3"
+        android:text="회원 가입"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btnIdCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ED98C1"
+        android:fontFamily="@font/scdream4"
+        android:text="중복검사"
+        android:textSize="16sp"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/etJoinUserPw"
+        app:layout_constraintStart_toStartOf="@+id/etJoinUserId"
+        app:layout_constraintTop_toBottomOf="@+id/etJoinUserId"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tvIdCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:textColor="#808080"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/etJoinUserPw"
+        app:layout_constraintStart_toEndOf="@+id/btnIdCheck"
+        app:layout_constraintTop_toBottomOf="@+id/etJoinUserId" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="238dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/mainlogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

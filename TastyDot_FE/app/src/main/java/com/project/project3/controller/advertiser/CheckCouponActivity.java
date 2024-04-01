@@ -77,7 +77,8 @@ public class CheckCouponActivity extends AppCompatActivity {
     }
 
     public void searchCoupon() {
-        String url = "http://192.168.219.101:8081/api/searchCoupons?store_idx=" + store_idx; // 쿠폰 현황 조회 API 엔드포인트
+        String url = "http://192.168.0.25:8081/api/searchCoupons?store_idx=" + store_idx; // 쿠폰 현황 조회 API 엔드포인트
+
         if (requestQueue == null) {
             requestQueue = Volley.newRequestQueue(getApplicationContext());
         }

@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_standing4.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_standing4.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_history_coupon.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_history_coupon.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_join.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_join.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\map_detail.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\map_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\fragment_user_home.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\fragment_user_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_adv_info.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_adv_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\fragment_frame3.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\fragment_frame3.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_user_info_change.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_user_info_change.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\coupon_hitory.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\coupon_hitory.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\fragment_frame4.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\fragment_frame4.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_add_coupon.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_add_coupon.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_standing3.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_standing3.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_user_main.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_user_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\fragment_user_info.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\fragment_user_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\fragment_map.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\fragment_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\fragment_frame1.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\fragment_frame1.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\fragment_user_coupon.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\fragment_user_coupon.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\list.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\list.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_divide.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_divide.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\fragment_frame2.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\fragment_frame2.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\user_coupon.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\user_coupon.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_check_coupon.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_check_coupon.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_standing2.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_standing2.xml"
+    },
+    {
+        "merged": "com.project.project3.app-mergeDebugResources-38:/layout/fragment_user_search.xml",
+        "source": "com.project.project3.app-main-41:/layout/fragment_user_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_menu_regi.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_menu_regi.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_user.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\fragment_user_search.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\fragment_user_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_menu_mod.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_menu_mod.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_user_login.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_user_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_order.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_join_user.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_join_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-mergeDebugResources-38:\\layout\\activity_standing1.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_standing1.xml"
+    }
+]

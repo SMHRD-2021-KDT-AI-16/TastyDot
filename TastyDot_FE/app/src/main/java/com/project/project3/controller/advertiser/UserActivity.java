@@ -139,7 +139,7 @@ public class UserActivity extends AppCompatActivity {
             if(requestQueue == null){
                 requestQueue = Volley.newRequestQueue(getApplicationContext());
             }
-            String url = "http://192.168.219.101:8081/api/searchStore";
+            String url = "http://192.168.0.25:8081/api/searchStore";
 
             StringRequest request = new StringRequest(Request.Method.POST, url,
                     new Response.Listener<String>() {

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_options">
+        <item>과세</item>
+        <item>면세</item>
+
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="text_margin">16dp</dimen>
+    <string name="AdverLogin">광고주\n이동</string>
+    <string name="CouponInfo">
+            1. 쿠폰은 1000원, 2000원, 3000원, 5000원으로 발행가능합니다. \n
+            2. 쿠폰 사용 내역은 따로 확인 가능합니다.
+    </string>
+    <string name="UserLogin">사용자\n이동</string>
+    <string name="app_name">project3</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <style name="Base.Theme.Project3" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Project3" parent="Base.Theme.Project3"/>
+</resources>

@@ -2,79 +2,97 @@ package com.project.project3.controller.user;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.FrameLayout;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.navigation.NavigationBarView;
 import com.project.project3.R;
 
 public class UserMainActivity extends AppCompatActivity {
+
+    Intent intent;
+    String id;
+    String clientId;
+    String clientName;
+    String clientEmail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_main);
 
+        intent = getIntent();
+        id = intent.getStringExtra("id");
+        clientId = intent.getStringExtra("clientId");
+        clientName = intent.getStringExtra("clientName");
+        clientEmail = intent.getStringExtra("clientEmail");
+
         BottomNavigationView bnv = findViewById(R.id.bvMain);
-        FrameLayout fl = findViewById(R.id.fl);
 
-        getSupportFragmentManager().beginTransaction().replace(
-                // 1) 어디에
-                R.id.fl,
-                // 2) 어떤 부분화면으로
-                new UserHomeFragment()
-        ).commit();
+        // 첫 화면 설정
+        setFragment("home"); // 예시로 홈 화면을 첫 화면으로 설정
 
-        // bnv에 어떤 항목을 클릭했는지 구분한 다음
-        // 해당 Fragment가 FrameLayout에 갈아 끼워질 수 있도록 만들자
-        bnv.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
+        bnv.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                // itme  : 내가 클릭한 항목에 대한 정보
-                // 정보 : 속성,id,title,icon...
-                // item.getItemId() : 항목의 id값을 가져오는 방법
                 int itemId = item.getItemId();
-                if(itemId == R.id.bnv_map){
-                    getSupportFragmentManager().beginTransaction().replace(
-                            R.id.fl,
-                            new MapFragment()
-                    ).commit();
+                if (itemId == R.id.bnv_map) {
+                    setFragment("map");
+                    return true;
                 } else if (itemId == R.id.bnv_search) {
-                    getSupportFragmentManager().beginTransaction().replace(
-                            R.id.fl,
-                            new UserSearchFragment()
-                    ).commit();
+                    setFragment("search");
+                    return true;
                 } else if (itemId == R.id.bnv_home) {
-                    getSupportFragmentManager().beginTransaction().replace(
-                            R.id.fl,
-                            new UserHomeFragment()
-                    ).commit();
+                    setFragment("home");
+                    return true;
                 } else if (itemId == R.id.bnv_coupon) {
-                    getSupportFragmentManager().beginTransaction().replace(
-                            R.id.fl,
-                            new UserCouponFragment()
-                    ).commit();
+                    setFragment("coupon");
+                    return true;
                 } else if (itemId == R.id.bnv_info) {
-                    getSupportFragmentManager().beginTransaction().replace(
-                            R.id.fl,
-                            new UserInfoFragment()
-                    ).commit();
+                    setFragment("info");
+                    return true;
                 }
-
-                // 항목에 대한 클릭 이벤트를 감지
-                // false : 클릭한번하고 이벤트가 계속 된다고 생각함
-                // true : 클릭 후 이벤트 종료
-                return true;
+                return false;
             }
         });
-
     }
 
+    private void setFragment(String tag) {
+        Fragment fragment = null;
 
+        Bundle bundle = new Bundle();
+        bundle.putString("id", id);
+        bundle.putString("clientId", clientId);
+        bundle.putString("clientName", clientName);
+        bundle.putString("clientEmail", clientEmail);
+
+        switch (tag) {
+            case "map":
+                fragment = new MapFragment();
+                break;
+            case "search":
+                fragment = new UserSearchFragment();
+                break;
+            case "home":
+                fragment = new UserHomeFragment();
+                break;
+            case "coupon":
+                fragment = new UserCouponFragment();
+                break;
+            case "info":
+                fragment = new UserInfoFragment();
+                break;
+        }
+
+        if (fragment != null) {
+            fragment.setArguments(bundle);
+            getSupportFragmentManager().beginTransaction().replace(R.id.fl, fragment).commit();
+        }
+    }
 }
+

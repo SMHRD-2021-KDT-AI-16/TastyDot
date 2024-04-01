@@ -75,7 +75,8 @@ public class JoinActivity extends AppCompatActivity {
     }
     // 회원가입 메서드
     private void joinRequest() {
-        String url = "http://192.168.219.101:8081/api/join";
+        String url = "http://192.168.0.25:8081/api/join";
+
         StringRequest request = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {
                     @Override
@@ -148,7 +149,7 @@ public class JoinActivity extends AppCompatActivity {
         if(requestQueue == null){
             requestQueue = Volley.newRequestQueue(getApplicationContext());
         }
-        String url = "http://192.168.219.101:8081/api/idCheck";
+        String url = "http://192.168.219.191:8081/api/idCheck";
 
         StringRequest request = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {

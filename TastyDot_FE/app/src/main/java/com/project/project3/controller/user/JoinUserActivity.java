@@ -22,6 +22,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.project.project3.R;
+import com.project.project3.controller.advertiser.JoinActivity;
 import com.project.project3.controller.advertiser.MenuRegiActivity;
 import com.project.project3.controller.advertiser.UserActivity;
 
@@ -49,7 +50,7 @@ public class JoinUserActivity extends AppCompatActivity {
     TextView tvIdCheck;
     static RequestQueue requestQueue;
 
-    Button join;
+    Button btnJoin;
 
 
     private List<String> selectedChecks = new ArrayList<>();
@@ -68,18 +69,28 @@ public class JoinUserActivity extends AppCompatActivity {
          ckBox4 = findViewById(R.id.cbWfood);
          ckBox5 = findViewById(R.id.cbSnack);
          ckBox6 = findViewById(R.id.cbCafe);
-        tvIdCheck = findViewById(R.id.tvUserIdCheck);
-        btnIdCheck = findViewById(R.id.btnUserIdCheck);
-        join = findViewById(R.id.btnUserJoin);
+         tvIdCheck = findViewById(R.id.tvUserIdCheck);
+         btnIdCheck = findViewById(R.id.btnUserIdCheck);
+         btnJoin = findViewById(R.id.btnUserJoin);
 
-         btnIdCheck.setOnClickListener(new View.OnClickListener() {
+        // 중복체크 버튼 클릭 시
+        btnIdCheck.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
                 tvIdCheck.setText("");
-                // 중복체크 메서드 실행
                  checkRequest();
              }
          });
+
+        // 회원가입 버튼 클릭 시
+        btnJoin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                showDialog();
+            }
+        });
+
 
         // 체크박스 선택시 selectedChecks리스트에 저장
         ckBox1.setOnCheckedChangeListener((buttonView, isChecked) -> {
@@ -127,12 +138,6 @@ public class JoinUserActivity extends AppCompatActivity {
 
 
 
-        join.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                showDialog();
-            }
-        });
 
 
 
@@ -147,10 +152,19 @@ public class JoinUserActivity extends AppCompatActivity {
 
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        Toast.makeText(JoinUserActivity.this, "가입 완료.", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(JoinUserActivity.this, UserLoginActivity.class);
-                        startActivity(intent);
-                        finish();
+                        if (name.getText().toString().isEmpty() || id.getText().toString().isEmpty() ||
+                                pw.getText().toString().isEmpty() || email.getText().toString().isEmpty()) {
+                            Toast.makeText(JoinUserActivity.this, "모든 필드를 채워주세요.", Toast.LENGTH_SHORT).show();
+                        } else {
+                            // 모든 필드가 채워져 있을 때만 회원가입 요청 실행
+                            Log.d("JoinUserActivity", "Email: " + email.getText().toString());
+                            joinRequest();
+                            Toast.makeText(JoinUserActivity.this, "가입 완료", Toast.LENGTH_SHORT).show();
+                            Intent intent = new Intent(JoinUserActivity.this, UserLoginActivity.class);
+                            startActivity(intent);
+                            finish();
+                        }
+
                     }
                 })
 
@@ -179,10 +193,10 @@ public class JoinUserActivity extends AppCompatActivity {
                         try {
 
                             JSONObject jsonResponse = new JSONObject(response);
-                            String userId = jsonResponse.getString("userId");
-                            String userPw = jsonResponse.getString("userPw");
-                            String userName = jsonResponse.getString("userName");
-                            String userEmail = jsonResponse.getString("userEmail");
+                            String userId = jsonResponse.getString("clientId");
+                            String userPw = jsonResponse.getString("clientPw");
+                            String userName = jsonResponse.getString("clientName");
+                            String userEmail = jsonResponse.getString("clientEmail");
                             // 아이디 값이 있을 떄
                             if (userId != null) {
                                 tvIdCheck.append("이미 사용중인 아이디입니다.");
@@ -206,7 +220,7 @@ public class JoinUserActivity extends AppCompatActivity {
             public byte[] getBody() throws AuthFailureError {
                 JSONObject jsonBody = new JSONObject();
                 try {
-                    jsonBody.put("userId", id.getText().toString());
+                    jsonBody.put("clientId", id.getText().toString());
 //                    jsonBody.put("password", joinPw.getText().toString());
                 } catch (JSONException e) {
                     e.printStackTrace();
@@ -229,4 +243,87 @@ public class JoinUserActivity extends AppCompatActivity {
         requestQueue.add(request);
 //    println("요청보냄");
     }
+
+    // 회원가입 메서드
+    public void joinRequest(){
+        if(requestQueue == null){
+            requestQueue = Volley.newRequestQueue(getApplicationContext());
+        }
+        String url = "http://192.168.219.101:8081/api/userJoin";
+
+        StringRequest request = new StringRequest(Request.Method.POST, url,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        try {
+                            JSONObject jsonResponse = new JSONObject(response);
+                            String userId = jsonResponse.getString("clientId");
+                            String userPw = jsonResponse.getString("clientPw");
+                            String userName = jsonResponse.getString("clientName");
+                            String userEmail = jsonResponse.getString("clientEmail");
+                            // 파싱한 데이터를 활용하여 필요한 작업을 수행합니다.
+                            // 예: TextView에 출력
+//                            textView.append( userName+"님 안녕하세요!"+"\n");
+//                            textView.append( "아이디 : " + userId+"\n");
+//                            textView.append("비밀번호 : " + userPw +"\n");
+//                            textView.append( "이메일 : " + userEmail + "\n");
+                            Toast.makeText(JoinUserActivity.this,
+                                    "회원가입 성공!", Toast.LENGTH_SHORT).show();
+
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+//                        println(response);
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+//                        println("에러-> " + error.getMessage());
+
+                    }
+                }
+
+        ) {
+
+            @Override
+            public byte[] getBody() throws AuthFailureError {
+                JSONObject jsonBody = new JSONObject();
+                try {
+                    jsonBody.put("clientId", id.getText().toString());
+                    jsonBody.put("clientPw", pw.getText().toString());
+                    jsonBody.put("clientName", name.getText().toString());
+                    jsonBody.put("clientEmail", email.getText().toString());
+
+                    // selectedChecks 리스트를 구분자를 사용한 문자열로 변환
+                    String preferencesString = String.join(",", selectedChecks);
+                    // 변환된 문자열을 JSONObject에 추가
+                    jsonBody.put("clientPreferences", preferencesString);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+                return jsonBody.toString().getBytes();
+            }
+
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                // 요청 헤더 설정
+                Map<String, String> headers = super.getHeaders();
+                if (headers == null || headers.isEmpty()) {
+                    headers = new HashMap<>();
+                }
+                headers.put("Accept", "application/json");
+                headers.put("Content-Type", "application/json");
+                return headers;
+            }
+        };
+        request.setShouldCache(false);
+        requestQueue.add(request);
+
+    }
+
+
+
+
+
 }

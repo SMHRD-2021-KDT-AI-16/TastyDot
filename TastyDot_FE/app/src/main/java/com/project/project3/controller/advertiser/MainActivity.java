@@ -61,7 +61,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void loginRequest(){
-        String url = "http://192.168.219.101:8081/api/login";
+
+        String url = "http://192.168.0.25:8081/api/login";
+//        String url = "http://192.168.0.25:8081/api/login";
+//        http://192.168.0.50:8081/api/
         StringRequest request = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {
                     @Override
@@ -75,14 +78,14 @@ public class MainActivity extends AppCompatActivity {
 
                             if (userName != null){
                                 Toast.makeText(MainActivity.this,"로그인 완료",Toast.LENGTH_SHORT).show();
+                                // 로그인 성공시
+//                                intent = new Intent(MainActivity.this, UserActivity.class);
                                 checkStore();
-
-
-
                             }else {
                                 Toast.makeText(MainActivity.this, "아이디 또는 비밀번호가 틀렸습니다.", Toast.LENGTH_SHORT).show();
                             }
                         } catch (JSONException e) {
+                            Toast.makeText(MainActivity.this, "아이디 또는 비밀번호가 틀렸습니다.", Toast.LENGTH_SHORT).show();
                             e.printStackTrace();
                         }
                     }
@@ -121,9 +124,9 @@ public class MainActivity extends AppCompatActivity {
         request.setShouldCache(false);
         requestQueue.add(request);
     }
-
     public void checkStore() {
-        String url = "http://192.168.219.101:8081/api/checkStore";
+        String url = "http://192.168.0.25:8081/api/checkStore";
+//        String url = "http://192.168.0.25:8081/api/checkStore";
         StringRequest request = new StringRequest(Request.Method.POST, url,
                 response -> {
                     try {
@@ -133,6 +136,7 @@ public class MainActivity extends AppCompatActivity {
                         if (hasStore) {
                             // 가게가 있는 경우
                             intent = new Intent(MainActivity.this, UserActivity.class);
+
                         } else {
                             // 가게가 없는 경우
                             intent = new Intent(MainActivity.this, StandingActivity1.class);

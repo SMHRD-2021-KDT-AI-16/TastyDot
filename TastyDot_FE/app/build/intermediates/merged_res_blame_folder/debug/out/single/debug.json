@@ -1,0 +1,498 @@
+[
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_standing1.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_standing1.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_list.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\list.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_img2.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\img2.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_scdream7.otf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\scdream7.otf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_edge_radius.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\edge_radius.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_italy_food.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\italy_food.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_menu_mod.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_menu_mod.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_fragment_frame2.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\fragment_frame2.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_icon_addmenu.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\icon_addmenu.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_scdream1.otf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\scdream1.otf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_img1.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\img1.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_chinese_food.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\chinese_food.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_edge_bluecolor.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\edge_bluecolor.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_scdream8.otf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\scdream8.otf"
+    },
+    {
+        "merged": "com.project.project3.app-merged_res-39:/layout_fragment_user_search.xml.flat",
+        "source": "com.project.project3.app-main-41:/layout/fragment_user_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_taedong.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\taedong.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_notosanskrthin.ttf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\notosanskrthin.ttf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\menu_menu_adv.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\menu\\menu_adv.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_camera.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\camera.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_icon_search.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\icon_search.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_notosanskrregular.ttf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\notosanskrregular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_user_main.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_user_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_coupon_hitory.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\coupon_hitory.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_join_user.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_join_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_food_img2.jpg.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\food_img2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_japanese_food.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\japanese_food.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_fragment_frame3.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\fragment_frame3.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_user_coupon.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\user_coupon.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_notosanskrblack.ttf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\notosanskrblack.ttf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_user_adress.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\user_adress.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_text_circle.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\text_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_nanumsquareacl.ttf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\nanumsquareacl.ttf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_scdream2.otf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\scdream2.otf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_dessert_food.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\dessert_food.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_icon_home.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\icon_home.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_food_img4.jpg.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\food_img4.jpg"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_scdream5.otf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\scdream5.otf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_menu_regi.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_menu_regi.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_tastydot.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\tastydot.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_history_coupon.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_history_coupon.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_search_color123.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\search_color123.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_icon_map.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\icon_map.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_user_coupon.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\user_coupon.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_food_img1.jpg.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\food_img1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_notosanskrmedium.ttf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\notosanskrmedium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_nanumsquareacr.ttf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\nanumsquareacr.ttf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_clb.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\clb.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_fragment_user_home.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\fragment_user_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_korean_food.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\korean_food.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_img3.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\img3.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_textview_background.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\textview_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_mainlogo.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\mainlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_nanumsquareb.ttf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\nanumsquareb.ttf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_fragment_user_coupon.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\fragment_user_coupon.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_standing2.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_standing2.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_edge_pinkcolor.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\edge_pinkcolor.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_user_info_change.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_user_info_change.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_user.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_join.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_join.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_lock.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\lock.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_notosanskrextralight.ttf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\notosanskrextralight.ttf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_icon_diary.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\icon_diary.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_divide.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_divide.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_nanumsquarer.ttf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\nanumsquarer.ttf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_notosanskrextrabold.ttf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\notosanskrextrabold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_scdream3.otf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\scdream3.otf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_edge.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\edge.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_check.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_notosanskrbold.ttf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\notosanskrbold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_adv_info.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_adv_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_edge_menucolor.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\edge_menucolor.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_et_line.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\et_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_hadang.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\hadang.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_nanumsquareacb.ttf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\nanumsquareacb.ttf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_check_coupon.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_check_coupon.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_icon_review.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\icon_review.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_icon_addcoupon.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\icon_addcoupon.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_standing4.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_standing4.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_notosanskrlight.ttf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\notosanskrlight.ttf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_scdream4.otf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\scdream4.otf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_nanumsquarel.ttf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\nanumsquarel.ttf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_order.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_notosanskrsemibold.ttf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\notosanskrsemibold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_fragment_user_search.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\fragment_user_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_img.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\img.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_icon_logout.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\icon_logout.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_fragment_user_info.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\fragment_user_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_user_login.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_user_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_img4.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\img4.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_standing3.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_standing3.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_coupon.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\coupon.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_fragment_frame4.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\fragment_frame4.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_map_detail.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\map_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_tasty_master.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\tasty_master.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_snack_food.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\snack_food.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_food_img3.jpg.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\food_img3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_scdream6.otf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\scdream6.otf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_activity_add_coupon.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\activity_add_coupon.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_fragment_map.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\fragment_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_bnv_color.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\bnv_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\layout_fragment_frame1.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\layout\\fragment_frame1.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_icon_checkcoupon.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\icon_checkcoupon.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_nanumsquareeb.ttf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\nanumsquareeb.ttf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_nanumsquareaceb.ttf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\nanumsquareaceb.ttf"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\drawable_icon_user.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\drawable\\icon_user.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-merged_res-39:\\font_scdream9.otf.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2\\com.project.project3.app-main-41:\\font\\scdream9.otf"
+    }
+]

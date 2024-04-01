@@ -1,16 +1,16 @@
 package com.project.project3.model;
 
 public class UserCouponVO {
-    private String userCouponName;
+    private String storeName;
     private String userCouponPrice;
     private String userCouponDate;
     private int userCouponImg;
+    private int storeIdx;
 
-    public String getUserCouponName() {
-        return userCouponName;
-    }
 
-    public String getUserCouponPrice() {
+    public String getUserCouponStoreName() { return storeName; }
+
+    public  String getUserCouponPrice() {
         return userCouponPrice;
     }
 
@@ -21,9 +21,13 @@ public class UserCouponVO {
     public int getUserCouponImg() {
         return userCouponImg;
     }
+//    public static int getStoreIdx() {
+//        return storeIdx; // 추가된 getter 메서드
+//    }
 
-    public UserCouponVO(String userCouponName, String userCouponPrice, String userCouponDate, int userCouponImg) {
-        this.userCouponName = userCouponName;
+
+    public UserCouponVO(String storeName, String userCouponPrice, String userCouponDate, int userCouponImg) {
+        this.storeName = storeName;
         this.userCouponPrice = userCouponPrice;
         this.userCouponDate = userCouponDate;
         this.userCouponImg = userCouponImg;

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edge"
+    tools:context=".controller.advertiser.AddCouponActivity">
+
+    <Button
+        android:id="@+id/btnJoin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#EE99C2"
+        android:fontFamily="@font/scdream4"
+        android:gravity="center"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="발급하기"
+        android:textSize="24sp"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edge"
+        android:fontFamily="@font/scdream5"
+        android:gravity="center"
+        android:text="5000원 쿠폰"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edge"
+        android:fontFamily="@font/scdream5"
+        android:gravity="center"
+        android:text="2000원쿠폰"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edge"
+        android:fontFamily="@font/scdream5"
+        android:gravity="center"
+        android:text="3000원 쿠폰"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edge"
+        android:fontFamily="@font/scdream5"
+        android:gravity="center"
+        android:text="1000원 쿠폰"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/edge_menucolor"
+        android:elevation="15dp"
+        android:fontFamily="@font/scdream7"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:text="쿠폰 발급"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/text_circle"
+        android:fontFamily="@font/scdream5"
+        android:gravity="center"
+        android:text="장"
+        app:layout_constraintBottom_toBottomOf="@+id/et1000"
+        app:layout_constraintStart_toEndOf="@+id/et1000"
+        app:layout_constraintTop_toTopOf="@+id/et1000" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/text_circle"
+        android:fontFamily="@font/scdream5"
+        android:gravity="center"
+        android:text="장"
+        app:layout_constraintBottom_toBottomOf="@+id/et2000"
+        app:layout_constraintStart_toEndOf="@+id/et2000"
+        app:layout_constraintTop_toTopOf="@+id/et2000" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/text_circle"
+        android:fontFamily="@font/scdream5"
+        android:gravity="center"
+        android:text="장"
+        app:layout_constraintBottom_toBottomOf="@+id/et3000"
+        app:layout_constraintStart_toEndOf="@+id/et3000"
+        app:layout_constraintTop_toTopOf="@+id/et3000" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/text_circle"
+        android:fontFamily="@font/scdream5"
+        android:gravity="center"
+        android:text="장"
+        app:layout_constraintBottom_toBottomOf="@+id/et5000"
+        app:layout_constraintStart_toEndOf="@+id/et5000"
+        app:layout_constraintTop_toTopOf="@+id/et5000" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/coupon" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.61" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="144dp"
+        android:text="쿠폰 발급시 유의사항"
+        android:textColor="#4A000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edge"
+        android:text="@string/CouponInfo"
+        android:textAlignment="center"
+        android:textColor="#B3000000"
+        app:layout_constraintBottom_toTopOf="@+id/btnJoin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="180dp"
+        app:layout_constraintEnd_toStartOf="@+id/imginfo1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mainlogo" />
+
+    <EditText
+        android:id="@+id/et1000"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="35dp"
+        android:background="@drawable/edge"
+        android:ems="10"
+        android:fontFamily="@font/scdream4"
+        android:gravity="center"
+        android:hint="최대 999장까지"
+        android:inputType="number"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/et5000"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="35dp"
+        android:background="@drawable/edge"
+        android:ems="10"
+        android:fontFamily="@font/scdream4"
+        android:gravity="center"
+        android:hint="최대 999장까지"
+        android:inputType="number"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView12"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/textView12"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/et3000"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="35dp"
+        android:background="@drawable/edge"
+        android:ems="10"
+        android:fontFamily="@font/scdream4"
+        android:gravity="center"
+        android:hint="최대 999장까지"
+        android:inputType="number"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView11"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toTopOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/et2000"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="35dp"
+        android:background="@drawable/edge"
+        android:ems="10"
+        android:fontFamily="@font/scdream4"
+        android:gravity="center"
+        android:hint="최대 999장까지"
+        android:inputType="number"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView6"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+    <ImageView
+        android:id="@+id/imghome1"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_home" />
+
+    <ImageView
+        android:id="@+id/imginfo1"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/imghome1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_user" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

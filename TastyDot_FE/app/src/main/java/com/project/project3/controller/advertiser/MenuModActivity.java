@@ -233,7 +233,7 @@ public class MenuModActivity extends AppCompatActivity {
     }
 
     private void getItems() {
-        String url = "http://192.168.219.101:8081/api/menus?store_idx=" + storeIdx;
+        String url = "http://192.168.0.25:8081/api/menus?store_idx=" + storeIdx;
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, url, null,
                 response -> {
                     try {
@@ -265,7 +265,7 @@ public class MenuModActivity extends AppCompatActivity {
         if(requestQueue == null){
             requestQueue = Volley.newRequestQueue(getApplicationContext());
         }
-        String url = "http://192.168.219.101:8081/api/updateMenu"; // 메뉴 수정 API 엔드포인트
+        String url = "http://192.168.0.25:8081/api/updateMenu"; // 메뉴 수정 API 엔드포인트
         StringRequest request = new StringRequest(Request.Method.PATCH, url, // 메서드를 PATCH로 변경
                 response -> {
                     // 응답 처리 로직
