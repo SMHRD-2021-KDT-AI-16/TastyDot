@@ -8,13 +8,13 @@
 
 ### 프로젝트 사용 기술 및 라이브러리
 
-Language : Java(Spring), Python  
-Client : Android  
-Server : Volley, Flask  
-DataBase : MySQL  
-Open API : KaKao Map API  
-Deep-Learning : Word2Vec  
-협업 : Github
+- Language : Java(Spring), Python  
+- Client : Android  
+- Server : Volley, Flask  
+- DataBase : MySQL  
+- Open API : KaKao Map API  
+- Deep-Learning : Word2Vec  
+- 협업 : Github
 
 ### 데이터 분석 및 모델 학습
 
